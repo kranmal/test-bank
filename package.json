@@ -1,0 +1,18 @@
+{
+  "name": "test-bank-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright + TypeScript end-to-end tests for the test-bank demo app",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,5 @@
+[
+  { "name": "an unknown username", "username": "nobody", "password": "demo", "expectedError": "An internal error has occurred and has been logged." },
+  { "name": "a wrong password", "username": "john", "password": "wrong-password", "expectedError": "An internal error has occurred and has been logged." },
+  { "name": "an empty username and password", "username": "", "password": "", "expectedError": "Please enter a username and password." }
+]
